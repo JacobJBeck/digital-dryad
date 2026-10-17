@@ -1,0 +1,9 @@
+## IDF Component Manager Manifest File
+dependencies:
+  ## Required IDF version
+  idf:
+    version: ^6.1
+  ## Display components
+  atanisoft/esp_lcd_ili9488: ^1.1
+  atanisoft/esp_lcd_touch_xpt2046: ^1.0
+  espressif/esp_lvgl_port: ^2.9
