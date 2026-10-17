@@ -1,25 +1,26 @@
 ---
 Language: Cpp
 BasedOnStyle: WebKit
-AlignConsecutiveMacros: true
-AlignOperands: true
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+AlignConsecutiveMacros: Consecutive
+AlignOperands: Align
 AlignTrailingComments: true
 AllowAllArgumentsOnNextLine: false
 AllowAllConstructorInitializersOnNextLine: true
 AllowAllParametersOfDeclarationOnNextLine: false
-AllowShortBlocksOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
 AllowShortCaseLabelsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLambdasOnASingleLine: All
 AllowShortLoopsOnASingleLine: false
 AlwaysBreakBeforeMultilineStrings: false
-AlwaysBreakTemplateDeclarations: Yes
 BreakBeforeBraces: Custom
 BraceWrapping:
   AfterCaseLabel: false
   AfterClass: true
-  AfterControlStatement: Always
+  AfterControlStatement: Never
   AfterEnum: false
   AfterFunction: true
   AfterNamespace: false
@@ -36,19 +37,24 @@ BraceWrapping:
   SplitEmptyRecord: true
   SplitEmptyNamespace: false
 BreakBeforeTernaryOperators: true
-BreakConstructorInitializers: BeforeColon
-ColumnLimit: 200
+BreakConstructorInitializers: AfterColon
+BreakTemplateDeclarations: Yes
+ColumnLimit: 120
 CompactNamespaces: true
 Cpp11BracedListStyle: false
 FixNamespaceComments: true
 IndentCaseLabels: true
 IndentWidth: 4
-KeepEmptyLinesAtTheStartOfBlocks: false
+KeepEmptyLines:
+  AtStartOfBlock: false
+  AtStartOfFile: false
 MaxEmptyLinesToKeep: 1
 NamespaceIndentation: Inner
 PointerAlignment: Right
-ReflowComments: true
-SortIncludes: false
+ReflowComments: Always
+SortIncludes:
+  Enabled: true
+  IgnoreCase: true
 SpaceAfterCStyleCast: false
 SpaceAfterLogicalNot: false
 SpaceAfterTemplateKeyword: false
@@ -56,8 +62,9 @@ SpaceBeforeAssignmentOperators: true
 SpaceBeforeInheritanceColon: false
 SpaceBeforeParens: ControlStatements
 SpaceBeforeRangeBasedForLoopColon: false
+SpaceInEmptyBlock: false
 SpaceInEmptyParentheses: false
-SpacesInAngles: false
+SpacesInAngles: Never
 SpacesInCStyleCastParentheses: false
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
