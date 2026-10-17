@@ -1,6 +1,3 @@
-# vscode environment
-.vscode/
-
 # caches
 .cache/
 .pytest_cache/

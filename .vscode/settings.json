@@ -1,0 +1,6 @@
+{
+    "editor.minimap.autohide": "mouseover",
+    "editor.rulers": [
+        120
+    ],
+}
