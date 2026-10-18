@@ -1,4 +1,48 @@
 {
+    "commentBox.styles": {
+        "basicStyle": {
+            "bottomEdgeToken": "",
+            "bottomLeftToken": " *",
+            "boxWidth": 119,
+            "capitalize": false,
+            "commentEndToken": "*/",
+            "commentStartToken": "/*",
+            "fillingToken": "",
+            "hidden": true,
+            "ignoreOuterIndentation": false,
+            "maxEndColumn": 119,
+            "rightEdgeToken": "",
+            "topEdgeToken": "",
+            "topRightToken": "*"
+        },
+        "titleStyle": {
+            "basedOn": [
+                "basicStyle"
+            ],
+            "bottomEdgeToken": "-",
+            "leftEdgeToken": " |",
+            "rightEdgeToken": "|",
+            "topEdgeToken": "-"
+        },
+        "heading1Style": {
+            "basedOn": [
+                "basicStyle"
+            ],
+            "fillingToken": "#"
+        },
+        "heading2Style": {
+            "basedOn": [
+                "basicStyle"
+            ],
+            "fillingToken": "="
+        },
+        "heading3Style": {
+            "basedOn": [
+                "basicStyle"
+            ],
+            "fillingToken": "-"
+        }
+    },
     "editor.minimap.autohide": "mouseover",
     "editor.rulers": [
         120

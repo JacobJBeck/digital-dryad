@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "espressif.esp-idf-extension",
+        "kylinideteam.cmake-intellisence",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "pascalreitermann93.vscode-yaml-sort",
+        "redhat.vscode-xml",
+        "redhat.vscode-yaml",
+        "slysherz.comment-box"
+    ]
+}

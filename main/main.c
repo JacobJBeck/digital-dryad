@@ -1,7 +1,7 @@
-/*
- * Digital Dryad growbox main application file
- * Copyright 2026 Jacob Beck
- */
+/*--------------------------------------------------------------------------------------------------------------------*
+ |                                    Digital Dryad growbox main application file                                     |
+ |                                             Copyright 2026 Jacob Beck                                              |
+ *--------------------------------------------------------------------------------------------------------------------*/
 
 #include <driver/gpio.h>
 #include <driver/i2c_master.h>
