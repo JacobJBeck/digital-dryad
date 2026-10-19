@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "edwinhuish.better-comments-next",
         "espressif.esp-idf-extension",
         "kylinideteam.cmake-intellisence",
         "llvm-vs-code-extensions.vscode-clangd",
